@@ -8,6 +8,117 @@
   <title>Template Repo</title>
 </head>
 <body>
-
+  
+  <h1 class="visually-hidden">webp img</h1>
+  
+  <header class="header">
+    <div class="container">
+      <div class="header__box">
+        <picture class="header__picture">
+          <!-- Webp -->
+          <source
+          type="image/webp"
+          media="(max-width: 425px)"
+          srcset="
+          ./images/bitmap-mobile.webp    1x,
+          ./images/bitmap-mobile@2x.webp 2x
+          "
+          >
+          <source
+          type="image/webp"
+          media="(max-width: 768px)"
+          srcset="
+          ./images/bitmap-tablet.webp    1x,
+          ./images/bitmap-tablet@2x.webp 2x
+          "
+          >
+          <source
+          type="image/webp"
+          srcset="
+          ./images/bitmap-mobile.webp    1x,
+          ./images/bitmap-mobile@2x.webp 2x
+          "
+          >
+          
+          <!-- Jpg default -->
+          <source
+          media="(max-width: 425px)"
+          srcset="
+          ./images/bitmap-mobile.jpg    1x,
+          ./images/bitmap-mobile@2x.jpg 2x
+          "
+          >
+          <source
+          media="(max-width: 768px)"
+          srcset="
+          ./images/bitmap-tablet.jpg    1x,
+          ./images/bitmap-tablet@2x.jpg 2x
+          "
+          >
+          <img 
+          src="./images/bitmap.jpg"
+          srcset="./images/bitmap.jpg 1x, ./images/bitmap@2x.jpg 2x"
+          alt="A men holding coffee"
+          width="445"
+          height="520"
+          >  
+        </picture>
+        
+        
+        <picture>
+          <!-- Webp -->
+          <source
+          type="image/webp"
+          media="(max-width: 425px)"
+          srcset="
+          ./images/coffee-mobile.webp 1x,
+          ./images/coffee-mobile@2x.webp 2x
+          "
+          >
+          <source
+          type="image/webp"
+          media="(max-width: 768px)"
+          srcset="
+          ./images/coffee-tablet.webp 1x,
+          ./images/coffee-tablet@2x.webp 2x
+          "
+          >
+          <source
+          type="image/webp"
+          srcset="
+          ./images/coffee.webp 1x,
+          ./images/coffee@2x.webp 2x
+          "
+          >
+          
+          <!-- Jpg default -->
+          <source
+          media="(max-width: 425px)"
+          srcset="
+          ./images/coffee-mobile.jpg 1x,
+          ./images/coffee-mobile@2x.jpg 2x
+          "
+          >
+          <source 
+          media="(max-width: 768px)"
+          srcset="
+          ./images/coffee-tablet.jpg 1x,
+          ./images/coffee-tablet@2x.jpg 2x
+          "
+          >
+          <img  
+          src="./images/coffee.jpg"
+          srcset="./images/coffee.jpg 1x, ./images/coffee@2x.jpg 2x"
+          alt="coffee"
+          width="445"
+          height="474"
+          >  
+        </picture>
+      </div>
+    </div>
+  </header>
+  <img src="" alt="">
+  <img src="" alt="">
+  
 </body>
 </html>
